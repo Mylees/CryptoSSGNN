@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""
-快速修复采样问题 - 专门针对半监督学习优化
-基于你现有的NeighborSamplingfinaldataset.py进行最小改动
-现在使用edge_attr自动划分4类关系而非随机生成
-"""
+
 
 import numpy as np
 import torch
@@ -598,4 +594,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
